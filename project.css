@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #00e6d3;
+    background-color: #1700e6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px 0;
 }
@@ -23,7 +23,7 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #0073e6;
+    color: #f7f3f3;
 }
 
 nav ul {
@@ -39,7 +39,7 @@ nav a {
 }
 
 .hero {
-    background: linear-gradient(to right, #00e6d3, #00aaff);
+    background: linear-gradient(to right, #c0f5f0, #deecf5);
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -48,11 +48,13 @@ nav a {
 .hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    color: #333;
 }
 
 .hero p {
     font-size: 18px;
     margin-bottom: 40px;
+    color: #333;
 }
 
 .cta-button {
@@ -72,12 +74,12 @@ nav a {
 .features {
     padding: 60px 20px;
     text-align: center;
-    background-color: #ffffff;
 }
 
 .features h2 {
     font-size: 36px;
     margin-bottom: 40px;
+    
 }
 
 .feature-grid {
@@ -88,18 +90,12 @@ nav a {
 }
 
 .feature {
-    background-color: #f8f8f8;
+    background-color: #b6b2b2;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 200px;
     text-align: center;
-}
-
-.feature img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
 }
 
 .feature h3 {
@@ -125,15 +121,3 @@ footer {
     margin: 0 auto;
 }
 
-footer nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-footer nav a {
-    text-decoration: none;
-    color: #ffffff;
-}
